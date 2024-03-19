@@ -1,9 +1,9 @@
 
-<style>
+[<style>
 p{
    text-align:justify;
 }
-</style>
+</style>]
 
 
 <h1> GPTChat-App </h1>
