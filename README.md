@@ -1,4 +1,54 @@
 
+
+<div>
+    <h1> GPT-Chat App</h1>
+</div>
+
+<div>
+
+<img src="app/src/androidTest/java/com/example/wgpchat/home_screenC.png" height="640" width="440" /> 
+<img src="app/src/androidTest/java/com/example/wgpchat/send_email.png" height="640" width="440" />
+<img src="app/src/androidTest/java/com/example/wgpchat/history_screen.png" height="640" width="440" /> 
+    
+</div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="app/src/androidTest/java/com/example/wgpchat/home_screen.png" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="app/src/androidTest/java/com/example/wgpchat/home_screenA.png" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="app/src/androidTest/java/com/example/wgpchat/home_screenB.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
 <style>
 * {box-sizing:border-box}
 
@@ -89,53 +139,6 @@
 }
     
 </style>
-
-<div>
-    <h1> GPT-Chat App</h1>
-</div>
-
-<div>
-
-<img src="app/src/androidTest/java/com/example/wgpchat/home_screenC.png" height="640" width="440" /> 
-<img src="app/src/androidTest/java/com/example/wgpchat/send_email.png" height="640" width="440" />
-<img src="app/src/androidTest/java/com/example/wgpchat/history_screen.png" height="640" width="440" /> 
-    
-</div>
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="app/src/androidTest/java/com/example/wgpchat/home_screen.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="app/src/androidTest/java/com/example/wgpchat/home_screenA.png" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="app/src/androidTest/java/com/example/wgpchat/home_screenB.png" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
 
 
 <script>
