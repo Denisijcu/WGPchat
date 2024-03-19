@@ -8,7 +8,7 @@ import retrofit2.http.POST
 interface GPTApi {
     @Headers(
         "Content-Type: application/json",
-        "Authorization: Bearer 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"
+        "Authorization: Bearer "Your OpenAI key here"
     )
     @POST("/v1/completions")
     fun getCompletion(
