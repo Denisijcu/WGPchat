@@ -1,5 +1,5 @@
-app/src/androidTest/java/com/example/wgpchat/index.html
-You can view the webpage [here](https://Denisijcu.github.io/WGPChat/app/src/androidTest/java/com/example/wgpchat/index.html).
+[app/src/androidTest/java/com/example/wgpchat/index.html](https://myportfolio-vite.netlify.app/)
+You can view the webpage [here](https://Denisijcu.github.io/WGPChat/app/src/androidTest/java/com/example/wgpchat/index.htmlhttps://myportfolio-vite.netlify.app/).
 
 <img src="app/src/androidTest/java/com/example/wgpchat/home_screenC.png" height="640" width="440" /> 
 <img src="app/src/androidTest/java/com/example/wgpchat/send_email.png" height="640" width="440" />
