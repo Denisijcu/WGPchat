@@ -46,7 +46,7 @@ class MainViewModel(application: Application):ViewModel(){
             try{
                 _allRequestsList.clear()
                 _allRequestsList.addAll(requests)
-                Log.d("[pinga]", "hay datos para aca ${requests.size}")
+                Log.d("[Testing ]", "hay datos para aca ${requests.size}")
             }catch (e:Exception){
                 errorMessage.value = e.message.toString()
             }
