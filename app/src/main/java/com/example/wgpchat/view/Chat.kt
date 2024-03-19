@@ -171,7 +171,7 @@ fun Chat(navController: NavHostController  ,chatViewModel: ChatViewModel= viewMo
                     val res = gptResponse.value + chatViewModel.answer.value
 
                     navController.navigate(NavRoutes.SendByEmail.route+"/$res")
-                    // context.sendMail(to = "denisijcu266@gmail.com", subject = "Probando Desde mi app", body = "Esto es un texto bien grande. Prepara memoria")
+                   
                 },enabled = gptResponse.value != "") {
                     // Text(text = "Email", style = TextStyle(fontSize = 14.sp))
 
