@@ -1,5 +1,41 @@
 
 
+# My Project
+
+<div class="container">
+    <p>This is a paragraph.</p>
+    <button class="btn">Click Me</button>
+</div>
+
+<style>
+/* CSS styles */
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+</style>
+
 <div>
     <h1> GPT-Chat App</h1>
 </div>
