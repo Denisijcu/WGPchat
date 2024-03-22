@@ -7,7 +7,8 @@
 
 </p>
 
-
+<h2>To use this code.</h2>
+<p>Get your OpenAI API's key first and use in the </p>
 
 <div>
  <img src="app/src/androidTest/java/com/example/wgpchat/home_screen.png" height="640" width="440">
