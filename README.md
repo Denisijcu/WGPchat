@@ -11,7 +11,7 @@
 <p>Get your OpenAI API's key first and Go Model package inside GPTApi and replace  </p>
 <pre>
     <code>
-        interface GPTApi {
+ interface GPTApi {
     @Headers(
         "Content-Type: application/json",
         "Authorization: Bearer "Your OpenAI key here"
