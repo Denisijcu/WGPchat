@@ -8,7 +8,21 @@
 </p>
 
 <h2>To use this code.</h2>
-<p>Get your OpenAI API's key first and use in the </p>
+<p>Get your OpenAI API's key first and Go Model package inside GPTApi and replace  </p>
+<pre>
+    <code>
+        interface GPTApi {
+    @Headers(
+        "Content-Type: application/json",
+        "Authorization: Bearer "Your OpenAI key here"
+    )
+    @POST("/v1/completions")
+    fun getCompletion(
+        @Body requestBody: GPTReq
+    ): Call<GPTRes>
+}
+    </code>
+</pre>
 
 <div>
  <img src="app/src/androidTest/java/com/example/wgpchat/home_screen.png" height="640" width="440">
